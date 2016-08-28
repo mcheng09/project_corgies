@@ -29,6 +29,9 @@ gem 'bcrypt', '~> 3.1.7'
 # Session Authorization Gem
 gem 'cancancan', '~> 1.10'
 
+# Materialize-sass gem
+gem 'materialize-sass'
+
 # Use Unicorn as the app server
 # gem 'unicorn'
 
