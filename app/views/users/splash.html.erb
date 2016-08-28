@@ -1,9 +1,27 @@
-Hello World!
+<head>
+<title>Norcal Corgies</title>
+</head>
 
-<% if current_user %>
-<li><%= link_to "Log Out", logout_path, :method => :delete %></li>
+<body>
 
-<% else %>
-<li><a href="/signup">Sign Up</a></li>
-<li><a href="/login">Login</a></li>
-<% end %>
+
+  <div class="container row">
+    <div class="carousel carousel-slider">
+      <a class="carousel-item" href="#one!"><img src="http://lorempixel.com/800/400/food/1"></a>
+      <a class="carousel-item" href="#two!"><img src="http://lorempixel.com/800/400/food/2"></a>
+      <a class="carousel-item" href="#three!"><img src="http://lorempixel.com/800/400/food/3"></a>
+      <a class="carousel-item" href="#four!"><img src="http://lorempixel.com/800/400/food/4"></a>
+    </div>
+  </div>
+
+  <script>
+  $(document).ready(function(){
+    $('.carousel.carousel-slider').carousel({full_width: true});
+    autoplay()
+    function autoplay() {
+      $('.carousel').carousel('next');
+      setTimeout(autoplay, 3000);
+    }
+  });
+  </script>
+</body>
