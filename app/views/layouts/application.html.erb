@@ -14,19 +14,31 @@
   <nav>
     <div class="nav-wrapper">
       <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+      <ul class="left">
+        <li><a href="/">Sign In</a></li>
+        <li><a href="/">Sign Up</a></li>
+      </ul>
       <ul class="right hide-on-med-and-down">
-        <li><a href="google.com">Conformation</a></li>
-        <li><a href="google.com">Obedience</a></li>
-        <li><a href="google.com">Herding</a></li>
-        <li><a href="google.com">Rally</a></li>
-        <li><a href="google.com">Agility</a></li>
+        <li><a href="/">Conformation</a></li>
+        <li><a href="/">Obedience</a></li>
+        <li><a href="/">Herding</a></li>
+        <li><a href="/">Rally</a></li>
+        <li><a href="/">Agility</a></li>
       </ul>
       <ul class="side-nav" id="mobile-demo">
-        <li><a href="google.com">Conformation</a></li>
-        <li><a href="google.com">Obedience</a></li>
-        <li><a href="google.com">Herding</a></li>
-        <li><a href="google.com">Rally</a></li>
-        <li><a href="google.com">Agility</a></li>
+        <li><a href="/">Conformation</a></li>
+        <li><a href="/">Obedience</a></li>
+        <li><a href="/">Herding</a></li>
+        <li><a href="/">Rally</a></li>
+        <li><a href="/">Agility</a></li>
+        <div class="row container sessionBox">
+          <div class="col s6">
+            <li><a href="/">Sign In</a></li>
+          </div>
+          <div class="col s6">
+            <li><a href="/">Sign Up</a></li>
+          </div>
+        </div>
       </ul>
     </div>
   </nav>
@@ -41,20 +53,46 @@
   <div class="container row">
     <nav style="border-radius: 24px; background: darkgreen;">
       <ul>
-        <li><a href="google.com">About Us</a></li>
-        <li><a href="google.com">Rescue</a></li>
-        <li><a href="google.com">Online Payment</a></li>
-        <li><a href="google.com">Corgi Info</a></li>
-        <li><a href="google.com">Events</a></li>
-        <li><a href="google.com">Specialty</a></li>
-        <li><a href="google.com">Gallery</a></li>
-        <li><a href="google.com">News</a></li>
-        <li><a href="google.com">Store</a></li>
+        <li><a href="/">About Us</a></li>
+        <li><a href="/">Rescue</a></li>
+        <li><a href="/">Online Payment</a></li>
+        <li><a href="/">Corgi Info</a></li>
+        <li><a href="/">Events</a></li>
+        <li><a href="/">Specialty</a></li>
+        <li><a href="/">Gallery</a></li>
+        <li><a href="/">News</a></li>
+        <li><a href="/">Store</a></li>
       </ul>
     </nav>
   </div>
 
 <%= yield %>
+
+<footer class="page-footer">
+  <div class="container">
+    <div class="row">
+      <div class="col l6 s12">
+        <h5 class="white-text">Footer Content</h5>
+        <p class="grey-text text-lighten-4">You can use rows and columns here to organize your footer content.</p>
+      </div>
+      <div class="col l4 offset-l2 s12">
+        <h5 class="white-text">Links</h5>
+        <ul>
+          <li><a class="grey-text text-lighten-3" href="#!">Link 1</a></li>
+          <li><a class="grey-text text-lighten-3" href="#!">Link 2</a></li>
+          <li><a class="grey-text text-lighten-3" href="#!">Link 3</a></li>
+          <li><a class="grey-text text-lighten-3" href="#!">Link 4</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="footer-copyright">
+    <div class="container">
+      © 2014 Copyright Text
+      <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
+    </div>
+  </div>
+</footer>
 
 <script>
 $(document).ready(function() {
