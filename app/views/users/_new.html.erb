@@ -1,0 +1,35 @@
+<li>
+  <a class="modal-trigger" href="#modal2">Sign Up</a>
+  <div id="modal2" class="modal" style="background: black">
+    <div class="modal-content">
+      <center><h4> Sign Up! </h4></center>
+      <%= form_for @user do |f| %>
+      <div>
+        <%= f.text_field :first_name, placeholder: "First Name" %>
+      </div>
+      <div>
+        <%= f.text_field :last_name, placeholder: "Last Name" %>
+      </div>
+      <div>
+        <%= f.text_field :email, placeholder: "Email" %>
+      </div>
+      <div>
+        <%= f.password_field :password, placeholder: "Password" %>
+      </div>
+      <div>
+        <%= f.password_field :password_confirmation, placeholder: "Confirm Password" %>
+      </div>
+    </div>
+    <div class="modal-footer" style="background: darkgrey;">
+      <a class="waves-effect waves-light btn" style="background: darkgreen">
+        <div class="valign-wrapper" style="position: relative; bottom: 12px;">
+          <div>
+            <%= f.submit 'Sign Up!' %>
+          </div>
+          <% end %>
+          <i class="material-icons right">send</i>
+        </div>
+      </a>
+    </div>
+  </div>
+</li>
