@@ -1,6 +1,7 @@
 class UsersController < ApplicationController
 
   def splash
+    @user = User.new
     render :splash
   end
 
@@ -12,10 +13,10 @@ class UsersController < ApplicationController
   def create
     @user = User.new(user_params)
     if @user.save
-      session[:user_id] = user.id
-      redirect_to splash_page
+      session[:user_id] = @user.id
+      redirect_to splash_path
     else
-      redirect_to splash_page
+      redirect_to splash_path
     end
   end
 

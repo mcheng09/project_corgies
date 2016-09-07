@@ -14,11 +14,15 @@
   <nav>
     <div class="nav-wrapper">
       <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
-      <ul class="left">
-        <li><a href="/">Sign In</a></li>
-        <li><a href="/">Sign Up</a></li>
+      <ul class="right">
+        <% if current_user %>
+        <li><%= link_to "Log Out", logout_path, :method => :delete %></li>
+        <% else %>
+        <%= render "/sessions/new"%>
+        <%= render "/users/new"%>
+        <% end %>
       </ul>
-      <ul class="right hide-on-med-and-down">
+      <ul class="left hide-on-med-and-down">
         <li><a href="/">Conformation</a></li>
         <li><a href="/">Obedience</a></li>
         <li><a href="/">Herding</a></li>
@@ -31,14 +35,6 @@
         <li><a href="/">Herding</a></li>
         <li><a href="/">Rally</a></li>
         <li><a href="/">Agility</a></li>
-        <div class="row container sessionBox">
-          <div class="col s6">
-            <li><a href="/">Sign In</a></li>
-          </div>
-          <div class="col s6">
-            <li><a href="/">Sign Up</a></li>
-          </div>
-        </div>
       </ul>
     </div>
   </nav>
@@ -97,6 +93,7 @@
 <script>
 $(document).ready(function() {
   $(".button-collapse").sideNav();
+  $('.modal-trigger').leanModal();
 })
 </script>
 
