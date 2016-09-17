@@ -33,6 +33,12 @@ main {
 .welcomeSec {
   background: white;
   border-radius: 6px;
+  h1 {
+    text-align: center;
+  }
+  p {
+    text-align: center;
+  }
 }
 
 .modal-footer input {
@@ -41,4 +47,13 @@ main {
 
 .carousel .carousel-item img{
   height: 500px !important;
+}
+
+.splashArticles {
+  background: white;
+  border-radius: 12px;
+  padding: 1em;
+  h5 {
+    text-align: center;
+  }
 }

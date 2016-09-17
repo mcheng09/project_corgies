@@ -18,8 +18,8 @@
         <% if current_user %>
         <li><%= link_to "Log Out", logout_path, :method => :delete %></li>
         <% else %>
-        <%= render "/sessions/new"%>
-        <%= render "/users/new"%>
+        <li><%= render "/sessions/new"%></li>
+        <li><%= render "/users/new"%></li>
         <% end %>
       </ul>
       <ul class="left hide-on-med-and-down">
@@ -41,8 +41,8 @@
 
   <div class="container row">
     <div class = "welcomeSec">
-      <center><h1>Welcome to Norcal Corgies</h1></center>
-      <center><p> Established since 1990</p></center>
+      <h1>Welcome to Norcal Corgies</h1>
+      <p> Established since 1990</p>
     </div>
   </div>
 
