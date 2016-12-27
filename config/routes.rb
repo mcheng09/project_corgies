@@ -15,5 +15,7 @@ Rails.application.routes.draw do
   post "/login", to: "sessions#create"
   delete "/logout", to: "sessions#delete"
 
-
+  # Other Routes
+  get "aboutus", to: "others#aboutus", as: "aboutus"
+  get "events", to: "others#events", as: "events"
 end

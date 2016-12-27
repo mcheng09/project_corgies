@@ -49,11 +49,22 @@ main {
   height: 500px !important;
 }
 
-.splashArticles {
+.contentContainer {
   background: white;
   border-radius: 12px;
   padding: 1em;
   h5 {
     text-align: center;
   }
+}
+
+.monthBox {
+  h6 {
+    text-align: center;
+  }
+}
+
+td.monthBox {
+  border: 1px solid black;
+  padding: 25px 15px;
 }
