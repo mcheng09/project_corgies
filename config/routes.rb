@@ -19,4 +19,8 @@ Rails.application.routes.draw do
   get "/aboutus", to: "others#aboutus", as: "aboutus"
   get "/events", to: "others#events", as: "events"
   get "/members", to: "others#members", as: "members"
+
+  # Specialty Routes
+  get "/specialties", to: "others#specialties", as:"specialties"
+  get "/specialties/2016", to: "others#specialties2016", as:"specialties2016"
 end
