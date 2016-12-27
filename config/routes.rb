@@ -16,6 +16,7 @@ Rails.application.routes.draw do
   delete "/logout", to: "sessions#delete"
 
   # Other Routes
-  get "aboutus", to: "others#aboutus", as: "aboutus"
-  get "events", to: "others#events", as: "events"
+  get "/aboutus", to: "others#aboutus", as: "aboutus"
+  get "/events", to: "others#events", as: "events"
+  get "/members", to: "others#members", as: "members"
 end

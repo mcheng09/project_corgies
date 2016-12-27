@@ -10,4 +10,8 @@ class OthersController < ApplicationController
     render :events
   end
 
+  def members
+    @user = User.new
+  end
+
 end
