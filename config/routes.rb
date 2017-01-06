@@ -17,6 +17,7 @@ Rails.application.routes.draw do
 
   # Other Routes
   get "/aboutus", to: "others#aboutus", as: "aboutus"
+  get "/contacts", to: "others#contacts", as: "contacts"
   get "/events", to: "others#events", as: "events"
   get "/members", to: "others#members", as: "members"
 

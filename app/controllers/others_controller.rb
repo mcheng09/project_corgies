@@ -5,6 +5,11 @@ class OthersController < ApplicationController
     render :aboutus
   end
 
+  def contacts
+    @user = User.new
+    render :contacts
+  end
+
   def events
     @user = User.new
     render :events
