@@ -30,26 +30,18 @@ main {
   flex: 1 0 auto;
 }
 
-.welcomeSec {
-  background: white;
-  border-radius: 6px;
-  margin-top: 3rem;
-  padding-bottom: 1rem;
-  h1 {
-    text-align: center;
-  }
-  p {
-    font-size: 10px;
-    text-align: center;
-  }
-
-  img {
-    display: block;
-    margin: auto;
-  }
+.about-subnotes {
+  font-size: 9px;
 }
 
+.about-subtitle {
+  font-weight: bold;
+}
 
+.about-title {
+  color: darkred;
+  text-decoration: underline;
+}
 .card {
   height: auto;
 }
@@ -64,6 +56,10 @@ main {
   padding: 1em;
   h5 {
     text-align: center;
+  }
+  .about-top {
+    text-align: center;
+    text-decoration: underline;
   }
 }
 
@@ -92,4 +88,29 @@ td.monthBox {
 
 .memberCity {
   font-style: italic;
+}
+
+.welcomeSec {
+  background: white;
+  border-radius: 6px;
+  margin-top: 3rem;
+  padding-bottom: 1rem;
+  h1 {
+    text-align: center;
+  }
+  p {
+    font-size: 10px;
+    text-align: center;
+  }
+
+  img {
+    display: block;
+    margin: auto;
+  }
+}
+
+#officers {
+  td {
+    text-align: center;
+  }
 }
