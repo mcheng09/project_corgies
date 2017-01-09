@@ -75,6 +75,22 @@ main {
   }
 }
 
+.event-content {
+  color: #069;
+}
+
+.event-month {
+  color: darkgreen;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.event-title {
+  color: darkred;
+  font-family: 'Open Sans', sans-serif;
+  font-family: 'Arima Madurai', cursive;
+}
+
 .modal-footer input {
   background: darkgreen;
 }
@@ -86,7 +102,7 @@ main {
 }
 
 td.monthBox {
-  border: 1px solid black;
+  border: 2px solid black;
   padding: 25px 15px;
 }
 
