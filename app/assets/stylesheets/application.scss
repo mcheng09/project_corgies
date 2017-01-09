@@ -33,16 +33,25 @@ main {
 .welcomeSec {
   background: white;
   border-radius: 6px;
+  margin-top: 3rem;
+  padding-bottom: 1rem;
   h1 {
     text-align: center;
   }
   p {
+    font-size: 10px;
     text-align: center;
+  }
+
+  img {
+    display: block;
+    margin: auto;
   }
 }
 
-.modal-footer input {
-  background: darkgreen;
+
+.card {
+  height: auto;
 }
 
 .carousel .carousel-item img{
@@ -56,6 +65,10 @@ main {
   h5 {
     text-align: center;
   }
+}
+
+.modal-footer input {
+  background: darkgreen;
 }
 
 .monthBox {
@@ -79,8 +92,4 @@ td.monthBox {
 
 .memberCity {
   font-style: italic;
-}
-
-.card {
-  height: auto;
 }
