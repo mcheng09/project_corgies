@@ -30,6 +30,14 @@ main {
   flex: 1 0 auto;
 }
 
+.about-bold {
+  font-weight: bold;
+}
+
+.about-regular {
+  font-weight: normal;
+}
+
 .about-subnotes {
   font-size: 9px;
 }
@@ -48,6 +56,10 @@ main {
 
 .carousel .carousel-item img{
   height: 500px !important;
+}
+
+.chair-title {
+  font-style: italic;
 }
 
 .contentContainer {
