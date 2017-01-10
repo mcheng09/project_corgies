@@ -75,14 +75,8 @@ main {
   }
 }
 
-.event-content {
-  color: #069;
-}
-
-.event-month {
-  color: darkgreen;
-  font-weight: bold;
-  text-decoration: underline;
+.eventContent {
+  font-family: 'Slabo 27px', serif;
 }
 
 .event-title {
@@ -96,18 +90,26 @@ main {
 }
 
 .monthBox {
-  h6 {
-    text-align: center;
-  }
+  border: 1px solid black;
+  height: 380px;
+  padding: 0px !important;
 }
 
-td.monthBox {
-  border: 2px solid black;
-  padding: 25px 15px;
+.monthText {
+  font-size: 2rem;
+  font-family: 'Bree Serif', serif;
+  margin: 0px !important;
+}
+
+.monthTitle {
+  background: lightblue;
+  color: white;
+  height: 2.5rem;
 }
 
 .memberTitle {
   font-weight: bold;
+  padding: 0;
 }
 
 .memberCards {
