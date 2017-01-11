@@ -7,6 +7,8 @@
     <p>The club's meetings are open to non-members and offer an opportunity to become familiar with the club and its members. Membership is open to all persons at least 18 years of age who are in good standing with the American Kennel Club and who subscribe to the purposes of the GGPWCF. To apply you need to read the Constitution & Bylaws, sign the Code of Ethics, fill out and sign the application, and have it endorsed by two club members. BOTH the Code of Ethics and Application MUST be signed and included. Email the <a href="/members">Corresponding Secretary</a> for the location of the next meeting.</p>
     <a href="http://www.goldengatecorgis.org/members/membershipApplication.pdf">Membership Application, Code of Ethics and Constitution & Bylaws</a><hr>
     <p>Below a member's name, you may see the words 'Puppies,' 'Stud Dog,' 'Information,' etc. Please note that this is a voluntary feature of our membership list and some members listed will not have this information. Below is an explanation:</p>
+    <div id="members">
+    </div>
     <ol>
       <li>Puppies - This is if the member is a breeder of Pembroke Welsh Corgis, and occasionally has litters. This does not guarantee they will currently have a litter on the ground. The GGPWCF has a "Public Outreach Committee" that will help those looking for a PWC find a member breeder. If you are looking for a PWC puppy or adult and would like a breeder referral, please contact the members listed below, or Email: ggpwcfoutreach@gmail.com</li>
       <li>Stud Dog - Availability; call member for more information.</li>
@@ -15,18 +17,20 @@
     </ol>
     <div>
       <%= form_tag(members_path, :method => "get", id:"search-form") do %>
-        <%= text_field_tag :search, params[:search], placeholder: "Search Members By Name, City, State or Zipcode" %>
-        <%= submit_tag "Search", :name=> nil %>
+        <%= text_field_tag :search, params[:search], placeholder: "Search Members By Name, City, State or Zipcode", :class => "searchForm" %>
+        <div class="center section scrollspy" id="members">
+          <%= submit_tag "Search", :name=> nil, :class => "btn searchButton" %>
+          <a href="/members#members"><button class="btn">Reset Search</button></a>
+        </div>
       <% end %>
     </div></br>
     <div class="row">
-
       <% @member.each do |member| %>
       <div class="col s12 m6 l4">
-        <div class="card-panel grey darken-3 memberCards">
+        <div class="card-panel memberCards">
           <span class="white-text">
             <ul>
-              <li style="font-weight: bold; font-size:16px"><%= member.name %></li>
+              <li style="font-weight: bold; font-size:16px; text-decoration: underline;"><%= member.name %></li>
               <li style="font-style: italic"><%= member.description %></li>
               <li><%= member.address %></li>
               <li><%= member.city %>, <%= member.state%> <%= member.zipcode %></li>
@@ -42,7 +46,6 @@
         </div>
       </div>
       <% end %>
-
     </div>
   </div>
 </div>

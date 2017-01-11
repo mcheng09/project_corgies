@@ -113,11 +113,21 @@ main {
 }
 
 .memberCards {
+  background-color: #558b2f;
+  height: 300px;
   text-align: center;
 }
 
 .memberCity {
   font-style: italic;
+}
+
+.searchButton {
+  background-color: darkred;
+}
+
+.searchForm {
+  text-align: center;
 }
 
 .welcomeSec {

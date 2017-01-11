@@ -28,312 +28,71 @@ members = Member.create([
     phone2: 'JK: (281)381-6150',
     email: 'JCK_RLA@sbcglobal.net',
     details: 'Stud Dog'
+  },
+  {
+    name: 'Sharon Berry',
+    description: 'Cross Creek',
+    address: '431 Bombay Circle',
+    city: 'Sacramento',
+    state: 'CA',
+    zipcode: '95835',
+    phone: '(916)515-1751',
+    email: 'corgis1@aol.com'
+  },
+  {
+    name: 'Melanie & Cassidy Bleich',
+    address: '560 Tevis Trail',
+    city: 'Hollister',
+    state: 'CA',
+    zipcode: '95023',
+    phone: '(831)636-3578',
+    email: 'melanie_bleich@razzolink.com'
+  },
+  {
+    name: 'Jacqueline Bousquet',
+    description: 'Fair Manor',
+    city: 'Fair Oaks',
+    state: 'CA',
+    zipcode: '95628',
+    phone: '(916)961-7806',
+    email: 'FairManor@gmail.com',
+    website: 'www.fairmanorcorgis.com',
+    details: 'Puppies, Stud Dog, Conformation'
+  },
+  {
+    name: 'Ann Marie Bounanno',
+    description: 'Brynayr',
+    address: '11050 Tesla Road',
+    city: 'Livermore',
+    state: 'CA',
+    zipcode: '94550',
+    phone: '(925)449-3339 Home',
+    phone2: '(925)449-1867 Work',
+    phone3: '(925)200-1652 Cell',
+    fax: '(925)454-9790 Fax',
+    email: 'ambdvm@pacbell.net',
+    details: 'Puppies, Stud Dog'
+  },
+  {
+    name: 'Debra Francek Castelanelli',
+    description: 'Marlmont',
+    city: 'Lodi',
+    state: 'CA',
+    zipcode: '95242',
+    phone: '(209)334-9433',
+    phone2: '(209)6089467',
+    fax: '(209)333-3333 Fax',
+    email: 'marlmont@castelanelli.net'
+  },
+  {
+    name: 'Judy Charon',
+    description: 'Cezanne',
+    address: '7436 Richardson Road',
+    city: 'Oakdale',
+    state: 'CA',
+    zipcode: '95361',
+    phone: '(209)947-5593',
+    email: 'corgijc@sbcglobal.net',
+    details: 'Puppies, Stud Dog, Information'
   }
-  # ,{
-  #   name: '',
-  #   description: '',
-  #   address: '',
-  #   state: '',
-  #   zipcode: '',
-  #   phone: '',
-  #   email: '',
-  #   details: ''
-  # },{
-  #   name: '',
-  #   description: '',
-  #   address: '',
-  #   state: '',
-  #   zipcode: '',
-  #   phone: '',
-  #   email: '',
-  #   details: ''
-  # },{
-  #   name: '',
-  #   description: '',
-  #   address: '',
-  #   state: '',
-  #   zipcode: '',
-  #   phone: '',
-  #   email: '',
-  #   details: ''
-  # },{
-  #   name: '',
-  #   description: '',
-  #   address: '',
-  #   state: '',
-  #   zipcode: '',
-  #   phone: '',
-  #   email: '',
-  #   details: ''
-  # },{
-  #   name: '',
-  #   description: '',
-  #   address: '',
-  #   state: '',
-  #   zipcode: '',
-  #   phone: '',
-  #   email: '',
-  #   details: ''
-  # },{
-  #   name: '',
-  #   description: '',
-  #   address: '',
-  #   state: '',
-  #   zipcode: '',
-  #   phone: '',
-  #   email: '',
-  #   details: ''
-  # },{
-  #   name: '',
-  #   description: '',
-  #   address: '',
-  #   state: '',
-  #   zipcode: '',
-  #   phone: '',
-  #   email: '',
-  #   details: ''
-  # },{
-  #   name: '',
-  #   description: '',
-  #   address: '',
-  #   state: '',
-  #   zipcode: '',
-  #   phone: '',
-  #   email: '',
-  #   details: ''
-  # },{
-  #   name: '',
-  #   description: '',
-  #   address: '',
-  #   state: '',
-  #   zipcode: '',
-  #   phone: '',
-  #   email: '',
-  #   details: ''
-  # },{
-  #   name: '',
-  #   description: '',
-  #   address: '',
-  #   state: '',
-  #   zipcode: '',
-  #   phone: '',
-  #   email: '',
-  #   details: ''
-  # },{
-  #   name: '',
-  #   description: '',
-  #   address: '',
-  #   state: '',
-  #   zipcode: '',
-  #   phone: '',
-  #   email: '',
-  #   details: ''
-  # },{
-  #   name: '',
-  #   description: '',
-  #   address: '',
-  #   state: '',
-  #   zipcode: '',
-  #   phone: '',
-  #   email: '',
-  #   details: ''
-  # },{
-  #   name: '',
-  #   description: '',
-  #   address: '',
-  #   state: '',
-  #   zipcode: '',
-  #   phone: '',
-  #   email: '',
-  #   details: ''
-  # },{
-  #   name: '',
-  #   description: '',
-  #   address: '',
-  #   state: '',
-  #   zipcode: '',
-  #   phone: '',
-  #   email: '',
-  #   details: ''
-  # },{
-  #   name: '',
-  #   description: '',
-  #   address: '',
-  #   state: '',
-  #   zipcode: '',
-  #   phone: '',
-  #   email: '',
-  #   details: ''
-  # },{
-  #   name: '',
-  #   description: '',
-  #   address: '',
-  #   state: '',
-  #   zipcode: '',
-  #   phone: '',
-  #   email: '',
-  #   details: ''
-  # },{
-  #   name: '',
-  #   description: '',
-  #   address: '',
-  #   state: '',
-  #   zipcode: '',
-  #   phone: '',
-  #   email: '',
-  #   details: ''
-  # },{
-  #   name: '',
-  #   description: '',
-  #   address: '',
-  #   state: '',
-  #   zipcode: '',
-  #   phone: '',
-  #   email: '',
-  #   details: ''
-  # },{
-  #   name: '',
-  #   description: '',
-  #   address: '',
-  #   state: '',
-  #   zipcode: '',
-  #   phone: '',
-  #   email: '',
-  #   details: ''
-  # },{
-  #   name: '',
-  #   description: '',
-  #   address: '',
-  #   state: '',
-  #   zipcode: '',
-  #   phone: '',
-  #   email: '',
-  #   details: ''
-  # },{
-  #   name: '',
-  #   description: '',
-  #   address: '',
-  #   state: '',
-  #   zipcode: '',
-  #   phone: '',
-  #   email: '',
-  #   details: ''
-  # },{
-  #   name: '',
-  #   description: '',
-  #   address: '',
-  #   state: '',
-  #   zipcode: '',
-  #   phone: '',
-  #   email: '',
-  #   details: ''
-  # },{
-  #   name: '',
-  #   description: '',
-  #   address: '',
-  #   state: '',
-  #   zipcode: '',
-  #   phone: '',
-  #   email: '',
-  #   details: ''
-  # },{
-  #   name: '',
-  #   description: '',
-  #   address: '',
-  #   state: '',
-  #   zipcode: '',
-  #   phone: '',
-  #   email: '',
-  #   details: ''
-  # },{
-  #   name: '',
-  #   description: '',
-  #   address: '',
-  #   state: '',
-  #   zipcode: '',
-  #   phone: '',
-  #   email: '',
-  #   details: ''
-  # },{
-  #   name: '',
-  #   description: '',
-  #   address: '',
-  #   state: '',
-  #   zipcode: '',
-  #   phone: '',
-  #   email: '',
-  #   details: ''
-  # },{
-  #   name: '',
-  #   description: '',
-  #   address: '',
-  #   state: '',
-  #   zipcode: '',
-  #   phone: '',
-  #   email: '',
-  #   details: ''
-  # },{
-  #   name: '',
-  #   description: '',
-  #   address: '',
-  #   state: '',
-  #   zipcode: '',
-  #   phone: '',
-  #   email: '',
-  #   details: ''
-  # },{
-  #   name: '',
-  #   description: '',
-  #   address: '',
-  #   state: '',
-  #   zipcode: '',
-  #   phone: '',
-  #   email: '',
-  #   details: ''
-  # },{
-  #   name: '',
-  #   description: '',
-  #   address: '',
-  #   state: '',
-  #   zipcode: '',
-  #   phone: '',
-  #   email: '',
-  #   details: ''
-  # },{
-  #   name: '',
-  #   description: '',
-  #   address: '',
-  #   state: '',
-  #   zipcode: '',
-  #   phone: '',
-  #   email: '',
-  #   details: ''
-  # },{
-  #   name: '',
-  #   description: '',
-  #   address: '',
-  #   state: '',
-  #   zipcode: '',
-  #   phone: '',
-  #   email: '',
-  #   details: ''
-  # },{
-  #   name: '',
-  #   description: '',
-  #   address: '',
-  #   state: '',
-  #   zipcode: '',
-  #   phone: '',
-  #   email: '',
-  #   details: ''
-  # },{
-  #   name: '',
-  #   description: '',
-  #   address: '',
-  #   state: '',
-  #   zipcode: '',
-  #   phone: '',
-  #   email: '',
-  #   details: ''
-  # }
 ]);
