@@ -46,18 +46,6 @@ main {
   font-weight: bold;
 }
 
-.headTitle {
-  color: darkred;
-  text-decoration: underline;
-}
-.card {
-  height: auto;
-}
-
-.carousel .carousel-item img{
-  height: 500px !important;
-}
-
 .chair-title {
   font-style: italic;
 }
@@ -85,8 +73,28 @@ main {
   font-family: 'Arima Madurai', cursive;
 }
 
+.headTitle {
+  color: darkred;
+  text-decoration: underline;
+}
+
 .modal-footer input {
   background: darkgreen;
+}
+
+.memberCards {
+  background-color: #546e7a;
+  height: 300px;
+  text-align: center;
+}
+
+.memberCity {
+  font-style: italic;
+}
+
+.memberTitle {
+  font-weight: bold;
+  padding: 0;
 }
 
 .monthBox {
@@ -107,22 +115,12 @@ main {
   height: 2.5rem;
 }
 
-.memberTitle {
-  font-weight: bold;
-  padding: 0;
-}
-
-.memberCards {
-  background-color: #546e7a;
-  height: 300px;
-  text-align: center;
-}
-
-.memberCity {
-  font-style: italic;
-}
-
 .searchButton {
+  background-color: darkred;
+
+}
+
+.searchButton:hover {
   background-color: darkred;
 }
 
