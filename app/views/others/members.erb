@@ -17,20 +17,23 @@
     </ol>
     <div>
       <%= form_tag(members_path + "#members", :method => "get", id:"search-form") do %>
-        <%= text_field_tag :search, params[:search], placeholder: "Search Members By Name, City, State or Zipcode", :class => "searchForm" %>
+        <%= text_field_tag :search, params[:search], placeholder: "Search Members By Last Name, City, State or Zipcode", :class => "searchForm" %>
         <div class="center section scrollspy" id="members">
           <%= submit_tag "Search", :name=> nil, :class => "btn searchButton" %>
           <a href="/members#members"><button class="btn">Reset Search</button></a>
         </div>
       <% end %>
     </div></br>
+
+    <h5 class="event-title" style="font-size:3em">Members List</h5>
+
     <div class="row">
       <% @member.each do |member| %>
       <div class="col s12 m6 l4">
         <div class="card-panel memberCards">
           <span class="white-text">
             <ul>
-              <li style="font-weight: bold; font-size:16px; text-decoration: underline;"><%= member.name %></li>
+              <li style="font-weight: bold; font-size:16px; text-decoration: underline; color: lightgrey;"><%= member.name %></li>
               <li style="font-style: italic"><%= member.description %></li>
               <li><%= member.address %></li>
               <li><%= member.city %>, <%= member.state%> <%= member.zipcode %></li>
@@ -39,8 +42,8 @@
               <li><%= member.phone3 %></li>
               <li><%= member.fax %></li>
               <li>Email: <a href="mailto:<%= member.email %>?subject=Hi! I saw your name on the GGPWCF website and I am interested..."><%= member.email %></a></li>
-              <li><%= member.website %></li>
               <li><%= member.details %></li>
+              <li><a href="<%= member.website %>"><%= member.website %></a></li>
             </ul>
           </span>
         </div>

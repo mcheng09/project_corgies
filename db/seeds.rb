@@ -94,5 +94,92 @@ members = Member.create([
     phone: '(209)947-5593',
     email: 'corgijc@sbcglobal.net',
     details: 'Puppies, Stud Dog, Information'
+  },{
+    name: 'Lisa Coit',
+    description: 'Rosewood Corgis',
+    address: '107 Circle Drive',
+    city: 'Oroville',
+    state: 'CA',
+    zipcode: '95966',
+    phone: '(619)823-7837',
+    email: 'rosewoodcorgis@cox.net'
+  },{
+    name: 'Laura Craig',
+    description: 'Rocnl',
+    address: 'P.O. Box 613',
+    city: 'Jackson',
+    state: 'CA',
+    zipcode: '95642',
+    phone: '(209)263-1474 Cell',
+    email: 'rocnldogs@gmail.com',
+    details: 'Puppies, Conformation, Information'
+  },{
+    name: 'Sharon Curry',
+    description: 'Shonleh',
+    address: '2405 Coffee Lane',
+    city: 'Sebastopol',
+    state: 'CA',
+    zipcode: '95472',
+    phone: '(707)823-2342',
+    email: 'Not Available'
+  },{
+    name: 'Leslie Earl',
+    description: 'Firelight',
+    email: 'laedogs@gmail.com',
+    details: 'No longer breeding - no puppies available'
+  },{
+    name: 'Carole-Joy Evert',
+    description: 'Katydid',
+    address: '861 E. Dogwood Avenue',
+    city: 'Centennial',
+    state: 'CO',
+    zipcode: '80121',
+    phone: '(303)797-8766',
+    email: 'cjkatydid71@gmail.com'
+  },{
+    name: 'Peter & Deanna Feliciano',
+    address: '1645 Paradisewood Drive',
+    city: 'Paradise',
+    state: 'CA',
+    zipcode: '95969',
+    phone: '(530)872-0582',
+    email: 'dsfeliciano45@yahoo.com'
+  },{
+    name: 'Arnie & Julie Ferguson',
+    address: '11332 Sutters Mill Circle',
+    city: 'Gold River',
+    state: 'CA',
+    zipcode: '95670',
+    phone: '(916)635-2036',
+    email: 'jfergusen@slakey.com',
+    details: 'Information, Obedience and Tracking'
+  },{
+    name: 'Kathy & Michael Frenklach',
+    address: '9 Chelton Court',
+    city: 'Orinda',
+    state: 'CA',
+    zipcode: '94563',
+    phone: '(925)376-4773',
+    email: 'kfrenklach@orinda.k12.ca.us'
+  },{
+    name: 'Judy Garbarino',
+    description: 'Pokies Country',
+    address: '23093 Center Pt. Road',
+    city: 'Caldwell',
+    state: 'ID',
+    zipcode: '83607',
+    phone: '(208)454-2032',
+    email: 'colliecorgi@speedyquick.net'
+  },{
+    name: 'Joyce Gotschall',
+    description: 'Faerie Glen',
+    address: '469 Hawkins Street',
+    city: 'Hollister',
+    state: 'CA',
+    zipcode: '95023',
+    phone: '(831)635-9946',
+    email: 'jogschall@aol.com',
+    website: 'www.faerieglencorgi.com',
+    details: 'Puppies, Stud Dog, Information'
   }
 ]);
