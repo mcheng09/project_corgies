@@ -29,4 +29,311 @@ members = Member.create([
     email: 'JCK_RLA@sbcglobal.net',
     details: 'Stud Dog'
   }
+  # ,{
+  #   name: '',
+  #   description: '',
+  #   address: '',
+  #   state: '',
+  #   zipcode: '',
+  #   phone: '',
+  #   email: '',
+  #   details: ''
+  # },{
+  #   name: '',
+  #   description: '',
+  #   address: '',
+  #   state: '',
+  #   zipcode: '',
+  #   phone: '',
+  #   email: '',
+  #   details: ''
+  # },{
+  #   name: '',
+  #   description: '',
+  #   address: '',
+  #   state: '',
+  #   zipcode: '',
+  #   phone: '',
+  #   email: '',
+  #   details: ''
+  # },{
+  #   name: '',
+  #   description: '',
+  #   address: '',
+  #   state: '',
+  #   zipcode: '',
+  #   phone: '',
+  #   email: '',
+  #   details: ''
+  # },{
+  #   name: '',
+  #   description: '',
+  #   address: '',
+  #   state: '',
+  #   zipcode: '',
+  #   phone: '',
+  #   email: '',
+  #   details: ''
+  # },{
+  #   name: '',
+  #   description: '',
+  #   address: '',
+  #   state: '',
+  #   zipcode: '',
+  #   phone: '',
+  #   email: '',
+  #   details: ''
+  # },{
+  #   name: '',
+  #   description: '',
+  #   address: '',
+  #   state: '',
+  #   zipcode: '',
+  #   phone: '',
+  #   email: '',
+  #   details: ''
+  # },{
+  #   name: '',
+  #   description: '',
+  #   address: '',
+  #   state: '',
+  #   zipcode: '',
+  #   phone: '',
+  #   email: '',
+  #   details: ''
+  # },{
+  #   name: '',
+  #   description: '',
+  #   address: '',
+  #   state: '',
+  #   zipcode: '',
+  #   phone: '',
+  #   email: '',
+  #   details: ''
+  # },{
+  #   name: '',
+  #   description: '',
+  #   address: '',
+  #   state: '',
+  #   zipcode: '',
+  #   phone: '',
+  #   email: '',
+  #   details: ''
+  # },{
+  #   name: '',
+  #   description: '',
+  #   address: '',
+  #   state: '',
+  #   zipcode: '',
+  #   phone: '',
+  #   email: '',
+  #   details: ''
+  # },{
+  #   name: '',
+  #   description: '',
+  #   address: '',
+  #   state: '',
+  #   zipcode: '',
+  #   phone: '',
+  #   email: '',
+  #   details: ''
+  # },{
+  #   name: '',
+  #   description: '',
+  #   address: '',
+  #   state: '',
+  #   zipcode: '',
+  #   phone: '',
+  #   email: '',
+  #   details: ''
+  # },{
+  #   name: '',
+  #   description: '',
+  #   address: '',
+  #   state: '',
+  #   zipcode: '',
+  #   phone: '',
+  #   email: '',
+  #   details: ''
+  # },{
+  #   name: '',
+  #   description: '',
+  #   address: '',
+  #   state: '',
+  #   zipcode: '',
+  #   phone: '',
+  #   email: '',
+  #   details: ''
+  # },{
+  #   name: '',
+  #   description: '',
+  #   address: '',
+  #   state: '',
+  #   zipcode: '',
+  #   phone: '',
+  #   email: '',
+  #   details: ''
+  # },{
+  #   name: '',
+  #   description: '',
+  #   address: '',
+  #   state: '',
+  #   zipcode: '',
+  #   phone: '',
+  #   email: '',
+  #   details: ''
+  # },{
+  #   name: '',
+  #   description: '',
+  #   address: '',
+  #   state: '',
+  #   zipcode: '',
+  #   phone: '',
+  #   email: '',
+  #   details: ''
+  # },{
+  #   name: '',
+  #   description: '',
+  #   address: '',
+  #   state: '',
+  #   zipcode: '',
+  #   phone: '',
+  #   email: '',
+  #   details: ''
+  # },{
+  #   name: '',
+  #   description: '',
+  #   address: '',
+  #   state: '',
+  #   zipcode: '',
+  #   phone: '',
+  #   email: '',
+  #   details: ''
+  # },{
+  #   name: '',
+  #   description: '',
+  #   address: '',
+  #   state: '',
+  #   zipcode: '',
+  #   phone: '',
+  #   email: '',
+  #   details: ''
+  # },{
+  #   name: '',
+  #   description: '',
+  #   address: '',
+  #   state: '',
+  #   zipcode: '',
+  #   phone: '',
+  #   email: '',
+  #   details: ''
+  # },{
+  #   name: '',
+  #   description: '',
+  #   address: '',
+  #   state: '',
+  #   zipcode: '',
+  #   phone: '',
+  #   email: '',
+  #   details: ''
+  # },{
+  #   name: '',
+  #   description: '',
+  #   address: '',
+  #   state: '',
+  #   zipcode: '',
+  #   phone: '',
+  #   email: '',
+  #   details: ''
+  # },{
+  #   name: '',
+  #   description: '',
+  #   address: '',
+  #   state: '',
+  #   zipcode: '',
+  #   phone: '',
+  #   email: '',
+  #   details: ''
+  # },{
+  #   name: '',
+  #   description: '',
+  #   address: '',
+  #   state: '',
+  #   zipcode: '',
+  #   phone: '',
+  #   email: '',
+  #   details: ''
+  # },{
+  #   name: '',
+  #   description: '',
+  #   address: '',
+  #   state: '',
+  #   zipcode: '',
+  #   phone: '',
+  #   email: '',
+  #   details: ''
+  # },{
+  #   name: '',
+  #   description: '',
+  #   address: '',
+  #   state: '',
+  #   zipcode: '',
+  #   phone: '',
+  #   email: '',
+  #   details: ''
+  # },{
+  #   name: '',
+  #   description: '',
+  #   address: '',
+  #   state: '',
+  #   zipcode: '',
+  #   phone: '',
+  #   email: '',
+  #   details: ''
+  # },{
+  #   name: '',
+  #   description: '',
+  #   address: '',
+  #   state: '',
+  #   zipcode: '',
+  #   phone: '',
+  #   email: '',
+  #   details: ''
+  # },{
+  #   name: '',
+  #   description: '',
+  #   address: '',
+  #   state: '',
+  #   zipcode: '',
+  #   phone: '',
+  #   email: '',
+  #   details: ''
+  # },{
+  #   name: '',
+  #   description: '',
+  #   address: '',
+  #   state: '',
+  #   zipcode: '',
+  #   phone: '',
+  #   email: '',
+  #   details: ''
+  # },{
+  #   name: '',
+  #   description: '',
+  #   address: '',
+  #   state: '',
+  #   zipcode: '',
+  #   phone: '',
+  #   email: '',
+  #   details: ''
+  # },{
+  #   name: '',
+  #   description: '',
+  #   address: '',
+  #   state: '',
+  #   zipcode: '',
+  #   phone: '',
+  #   email: '',
+  #   details: ''
+  # }
 ]);
