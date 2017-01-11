@@ -16,7 +16,7 @@
       <li>Website: Some kennels may have a website link. Feel free to visit!</li>
     </ol>
     <div>
-      <%= form_tag(members_path, :method => "get", id:"search-form") do %>
+      <%= form_tag(members_path + "#members", :method => "get", id:"search-form") do %>
         <%= text_field_tag :search, params[:search], placeholder: "Search Members By Name, City, State or Zipcode", :class => "searchForm" %>
         <div class="center section scrollspy" id="members">
           <%= submit_tag "Search", :name=> nil, :class => "btn searchButton" %>
