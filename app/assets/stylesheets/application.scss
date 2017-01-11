@@ -52,6 +52,7 @@ main {
 
 .contentContainer {
   background: white;
+  background-color: lightyellow;
   border-radius: 12px;
   padding: 1em;
   h5 {
@@ -126,6 +127,14 @@ main {
 
 .searchForm {
   text-align: center;
+}
+
+.specialtyCardText {
+  font-weight: bold;
+}
+
+.specialtyCard {
+  background-color: #b3e5fc;
 }
 
 .welcomeSec {
