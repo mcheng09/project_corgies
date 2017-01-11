@@ -17,6 +17,7 @@ class OthersController < ApplicationController
 
   def members
     @user = User.new
+    @member = Member.all
     render :members
   end
 
