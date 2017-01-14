@@ -1,9 +1,9 @@
 <div class="container">
   <div class="contentContainer">
-    <h5 class="headTitle">Members</h5>
+    <h5 class="title-underlined">Members</h5>
     <p>Below is a partial listing of our members. Please check back often, as this list will continue to grow. If you are a member of the GGPWCF and wish to have your information added, please download the Release Form, fill it out and mail it in. <a href="http://www.goldengatecorgis.org/ggpwcf_website_release.pdf">(Release of Liability Form for GGPWCF Website - Members Only)</a> If you have a CORRECTION, please email the <a href="mailto:webmaster@goldengatecorgis.org?subject=Hi! I saw your name on the GGPWCF website and I am interested...">webmaster@goldengatecorgis.org</a>.</p>
     <p style="font-weight: bold;">Please note that even though the following are members of the GGPWCF, in no circumstance does the GGPWCF, its officers, board members or members guarantee or warrant their services, validity of breed information, or the quality or health of the dogs which may be purchased from breeders who are members of the GGPWCF.</p><hr>
-    <h5 class="headTitle">Membership Information</h5>
+    <h5 class="title-underlined">Membership Information</h5>
     <p>The club's meetings are open to non-members and offer an opportunity to become familiar with the club and its members. Membership is open to all persons at least 18 years of age who are in good standing with the American Kennel Club and who subscribe to the purposes of the GGPWCF. To apply you need to read the Constitution & Bylaws, sign the Code of Ethics, fill out and sign the application, and have it endorsed by two club members. BOTH the Code of Ethics and Application MUST be signed and included. Email the <a href="/members">Corresponding Secretary</a> for the location of the next meeting.</p>
     <a href="http://www.goldengatecorgis.org/members/membershipApplication.pdf">Membership Application, Code of Ethics and Constitution & Bylaws</a><hr>
     <p>Below a member's name, you may see the words 'Puppies,' 'Stud Dog,' 'Information,' etc. Please note that this is a voluntary feature of our membership list and some members listed will not have this information. Below is an explanation:</p>
@@ -17,20 +17,20 @@
     </ol>
     <div>
       <%= form_tag(members_path + "#members", :method => "get", id:"search-form") do %>
-        <%= text_field_tag :search, params[:search], placeholder: "Search Members By Last Name, City, State or Zipcode", :class => "searchForm" %>
+        <%= text_field_tag :search, params[:search], placeholder: "Search Members By Last Name, City, State or Zipcode", :class => "search-form" %>
         <div class="center section scrollspy" id="members">
-          <%= submit_tag "Search", :name=> nil, :class => "btn searchButton" %>
+          <%= submit_tag "Search", :name=> nil, :class => "btn search-button" %>
           <a href="/members#members"><button class="btn">Reset Search</button></a>
         </div>
       <% end %>
     </div></br>
 
-    <h5 class="event-title" style="font-size:3em">Members List</h5>
+    <h5 class="main-title" style="font-size:3em">Members List</h5>
 
     <div class="row">
       <% @member.each do |member| %>
       <div class="col s12 m6 l4">
-        <div class="card-panel memberCards">
+        <div class="card-panel member-cards">
           <span class="white-text">
             <ul>
               <li style="font-weight: bold; font-size:16px; text-decoration: underline; color: lightgrey;"><%= member.name %></li>

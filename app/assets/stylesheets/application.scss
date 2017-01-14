@@ -10,7 +10,11 @@
  * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
  * file per style scope.
  *
- *= require_tree .
+ *= require about
+ *= require events
+ *= require matches
+ *= require members
+ *= require specialties
  *= require_self
  */
 @charset "UTF-8";
@@ -33,26 +37,6 @@ main {
   flex: 1 0 auto;
 }
 
-.about-bold {
-  font-weight: bold;
-}
-
-.about-regular {
-  font-weight: normal;
-}
-
-.about-subnotes {
-  font-size: 9px;
-}
-
-.about-subtitle {
-  font-weight: bold;
-}
-
-.chair-title {
-  font-style: italic;
-}
-
 .contentContainer {
   background: white;
   background-color: lightyellow;
@@ -67,112 +51,41 @@ main {
   }
 }
 
-.eventContent {
-  font-family: 'Slabo 27px', serif;
-}
-
-.event-title {
+.main-title {
   color: darkred;
   font-family: 'Open Sans', sans-serif;
   font-family: 'Arima Madurai', cursive;
 }
 
-.headTitle {
-  color: darkred;
-  text-decoration: underline;
+.member-cards {
+  background-color: #546e7a;
+  height: 300px;
+  text-align: center;
 }
 
 .modal-footer input {
   background: darkgreen;
 }
 
-.memberCards {
-  background-color: #546e7a;
-  height: 300px;
-  text-align: center;
-}
-
-.memberCity {
-  font-style: italic;
-}
-
-.memberTitle {
-  font-weight: bold;
-  padding: 0;
-}
-
-.monthBox {
-  border: 1px solid black;
-  height: 380px;
-  padding: 0px !important;
-}
-
-.monthText {
-  font-size: 2rem;
-  font-family: 'Bree Serif', serif;
-  margin: 0px !important;
-}
-
-.monthTitle {
-  background: lightblue;
-  color: white;
-  height: 2.5rem;
-}
-
-.searchButton {
-  background-color: darkred;
-
-}
-
-.searchButton:hover {
+.search-button {
   background-color: darkred;
 }
 
-.searchForm {
-  text-align: center;
+.search-button:hover {
+  background-color: darkred;
 }
 
-.specialtyButton {
-  background-color: darkgreen;
+.title-underlined {
+  color: darkred;
+  text-decoration: underline;
 }
 
-.specialtyCardText {
-  font-weight: bold;
-}
-
-.specialtyCard {
+.specialty-card {
   background-color: #b3e5fc;
 }
 
-.specialtyCardTitle {
+.specialty-card-title {
   background-color: #b3fcca;
-}
-
-.specialtyContent {
-  height: 350px;
-}
-
-.specialtyMerit {
-  height: 500px;
-}
-
-.specialtyText {
-  font-size: 11px;
-  margin: 0;
-}
-
-.specialtySubtitle {
-  font-style: italic;
-}
-
-.specialtyTitle {
-  font-weight: bold;
-  margin-bottom: 0;
-}
-
-.springLogo {
-  display: block;
-  margin: 0 auto;
 }
 
 .welcomeSec {
@@ -191,11 +104,5 @@ main {
   img {
     display: block;
     margin: auto;
-  }
-}
-
-#officers {
-  td {
-    text-align: center;
   }
 }
