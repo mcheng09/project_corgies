@@ -15,18 +15,20 @@ Rails.application.routes.draw do
   post "/login", to: "sessions#create"
   delete "/logout", to: "sessions#delete"
 
+  # Members Routes
+  get "/members", to: "members#members", as: "members"
+
+  # Specialty Routes
+  get "/specialties", to: "specialties#specialties", as:"specialties"
+  get "/specialties/2016", to: "specialties#specialties2016", as:"specialties2016"
+
+  # Matches Routes
+  get "/matches", to: "matches#matches", as:"matches"
+  get "/matches/2016", to:"matches#matches2016", as:"matches2016"
+
   # Other Routes
   get "/aboutus", to: "others#aboutus", as: "aboutus"
   get "/contacts", to: "others#contacts", as: "contacts"
   get "/events", to: "others#events", as: "events"
-  get "/members", to: "others#members", as: "members"
-
-  # Specialty Routes
-  get "/specialties", to: "others#specialties", as:"specialties"
-  get "/specialties/2016", to: "others#specialties2016", as:"specialties2016"
-
-  # Matches Routes
-  get "/matches", to: "others#matches", as:"matches"
-  get "/matches/2016", to:"others#matches2016", as:"matches2016"
 
 end
