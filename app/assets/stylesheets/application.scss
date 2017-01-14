@@ -19,6 +19,9 @@
 $primary-color: color("grey", "darken-3") !default;
 @import 'materialize';
 
+a.collection-item {
+}
+
 body {
   background: #2a2a2a;
   display: flex;
@@ -165,6 +168,11 @@ main {
 .specialtyTitle {
   font-weight: bold;
   margin-bottom: 0;
+}
+
+.springLogo {
+  display: block;
+  margin: 0 auto;
 }
 
 .welcomeSec {

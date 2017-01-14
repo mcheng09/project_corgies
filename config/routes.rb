@@ -24,4 +24,9 @@ Rails.application.routes.draw do
   # Specialty Routes
   get "/specialties", to: "others#specialties", as:"specialties"
   get "/specialties/2016", to: "others#specialties2016", as:"specialties2016"
+
+  # Matches Routes
+  get "/matches", to: "others#matches", as:"matches"
+  get "/matches/2016", to:"others#matches2016", as:"matches2016"
+
 end

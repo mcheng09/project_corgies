@@ -15,6 +15,16 @@ class OthersController < ApplicationController
     render :events
   end
 
+  def matches
+    @user = User.new
+    render :matches
+  end
+
+  def matches2016
+    @user = User.new
+    render :matches2016
+  end
+
   def members
     @user = User.new
     @member = Member.all
