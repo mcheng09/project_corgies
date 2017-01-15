@@ -23,11 +23,7 @@
 $primary-color: color("grey", "darken-3") !default;
 @import 'materialize';
 
-a.collection-item {
-}
-
 body {
-  background: #2a2a2a;
   display: flex;
   min-height: 100vh;
   flex-direction: column;
@@ -37,12 +33,20 @@ main {
   flex: 1 0 auto;
 }
 
+.btn {
+  background-color: darkgrey;
+}
+
+.btn:hover {
+  background-color: darkgrey;
+}
+
 .contentContainer {
-  background: white;
-  background-color: lightyellow;
+  background-color: #fafafa;
   border-radius: 12px;
   padding: 1em;
   h5 {
+    color: darkgrey;
     text-align: center;
   }
   .about-top {
@@ -52,12 +56,11 @@ main {
 }
 
 .main-title {
-  color: darkred;
-  font-family: 'Arima Madurai', cursive;
+  color: darkgrey;
 }
 
 .member-cards {
-  background-color: #546e7a;
+  background-color: darkgrey;
   height: 300px;
   text-align: center;
 }
@@ -66,25 +69,16 @@ main {
   background: darkgreen;
 }
 
-.search-button {
-  background-color: darkred;
-}
-
-.search-button:hover {
-  background-color: darkred;
-}
-
 .title-underlined {
-  color: darkred;
   text-decoration: underline;
 }
 
 .specialty-card {
-  background-color: #b3e5fc;
+  background-color: darkgrey;
 }
 
 .specialty-card-title {
-  background-color: #b3fcca;
+  background-color: darkgrey;
 }
 
 .welcomeSec {
